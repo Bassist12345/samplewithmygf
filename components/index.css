@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(49, 176, 255);
+}
+#btn1{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn1:hover{
+background-color: aqua;
+padding: 22px 54px;
+}
+#btn2:hover{
+    background-color: aqua;
+    padding: 22px 54px;
+    }
+
+
+#btn1{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn2{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn3{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn4{
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn5{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#btn6{
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    padding: 20px 50px;
+    background-color: aliceblue;
+}
+#container1{
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    overflow: hidden;
+    z-index: 0;
+}
+#container2{
+    left: 30%;
+    top: 30%;
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    background-color: transparent;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+#age{
+    z-index: 4;
+    position: absolute;
+    padding: 20px 60px;
+    left: 40%;
+    top: 20%;
+    animation-name: agemove;
+    animation-iteration-count: infinite;
+    animation-duration:5s;
+    background-color: yellow;
+}
+@keyframes agemove{
+    0%{
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+
+
+
+    25%{
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        background-color: blue;
+        transform: rotate(120deg);
+        opacity: 60%;
+    }
+
+
+
+    50%{
+        position: absolute;
+        left: 40%;
+        top: 60%;
+        background-color: red;
+        transform: rotate(240deg);
+        opacity: 30%;
+    }
+    
+    75%{
+        position: absolute;
+        left: 20%;
+        top: 40%;
+        background-color: green;
+        transform: rotate(360deg);
+        opacity: 0%;
+    }
+
+
+
+    100%{
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+
+
+
+}
